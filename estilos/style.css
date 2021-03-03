@@ -109,3 +109,29 @@ p
     text-indent: 0; 
 }
 
+progress {
+    border-radius: 5px;
+    width: 160px;
+    height: 6px;
+    background: rgb(94, 78, 187);
+  }
+  
+  progress::-webkit-progress-value {
+    background: rgb(94, 78, 187);
+    border-radius: 5px;
+  }
+  
+  progress::-moz-progress-bar {
+    background: rgb(159, 159, 161);
+    border-radius: 10px;
+  }
+  
+  progress::-webkit-progress-value {
+    background:rgb(94, 78, 187);
+    border-radius: 5px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: rgb(159, 159, 161);
+    border-radius: 10px;
+  }
